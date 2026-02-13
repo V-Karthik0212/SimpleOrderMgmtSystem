@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: SimpleOrderMgmtSystem
+
+server:
+  port: 8090
+  servlet:
+    context-path: /soms #All requests should be prefixed with /soms
+
+logging:
+  file:
+    name: soms.log # A separate log file will be created(if File not exists) and here logs will be reflected
