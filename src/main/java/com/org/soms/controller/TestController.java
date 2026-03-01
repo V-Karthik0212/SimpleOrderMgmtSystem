@@ -23,6 +23,12 @@ public class TestController {
         return "Welcome to SOMS";
     }
 
+    @RequestMapping("/test2")
+    public String test2(){
+        log.info("Test2 method called:)");
+        return "Welcome to SOMS Test";
+    }
+
     @PostMapping("/mapTest")
     public String mappingTest(@RequestBody OrderDTO orderDTO){
 

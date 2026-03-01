@@ -1,4 +1,4 @@
-package com.org.soms.config;
+package com.org.soms.orika;
 
 import com.org.soms.dto.OrderDTO;
 import com.org.soms.entity.OrderEntity;
